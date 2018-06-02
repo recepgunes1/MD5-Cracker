@@ -19,7 +19,7 @@ def banner():
 ||          ||' '' '' .||  .|   ''  || .'   .|...||  ||' '' 
 '|.      .  ||     .|' ||  ||       ||'|.   ||       ||     
  ''|....'  .||.    '|..'|'  '|...' .||. ||.  '|...' .||.    
-{}\n\tHow To Use:\n\tpython3 md-cracker.py [hash_text]\n{}""".format("="*75,"="*75,"="*75))
+{}\n\tHow To Use:\n\tpython3 md5-cracker.py [hash_text]\n{}""".format("="*75,"="*75,"="*75))
 
 def crackhash(password):
     try:
@@ -33,7 +33,7 @@ def crackhash(password):
     except IndexError:
         print("crackhash.com ===> Hash Don't Found!\n{}".format("=" * 75))
     except requests.ConnectionError or requests.ConnectTimeout:
-        print("crackhash.com ===> Connection Error!!!")
+        print("crackhash.com ===> Connection Error!!!\n{}".format("=" * 75))
 
 def hashcrack(password):
     try:
@@ -46,7 +46,7 @@ def hashcrack(password):
     except IndexError:
         print("hashcrack.com ===> Hash Don't Found!\n{}".format("=" * 75))
     except requests.ConnectionError or requests.ConnectTimeout:
-        print("hashcrack.com ===> Connection Error!!!")
+        print("hashcrack.com ===> Connection Error!!!{}\n".format("=" * 75))
 
 def md5_gromweb(password):
     try:
@@ -59,7 +59,7 @@ def md5_gromweb(password):
     except IndexError:
         print("md5.gromweb.com ===> Hash Don't Found!\n{}".format("=" * 75))
     except requests.ConnectionError or requests.ConnectTimeout:
-        print("md5.gromweb.com ===> Connection Error!!!")
+        print("md5.gromweb.com ===> Connection Error!!!\n{}".format("=" * 75))
 
 def md5decryption(password):
     try:
@@ -74,7 +74,7 @@ def md5decryption(password):
         else:
             print("md5decryption.com ===> {}\n{}".format(plain_text,"="*75))
     except requests.ConnectionError or requests.ConnectTimeout:
-        print("md5decryption.com ===> Connection Error!!!")
+        print("md5decryption.com ===> Connection Error!!!\n{}".format("=" * 75))
 
 def md5_my_addr(password):
     try:
@@ -87,7 +87,7 @@ def md5_my_addr(password):
     except IndexError:
         print("md5.my-addr.com ===> Hash Don't Found!\n{}".format("="*75))
     except requests.ConnectionError or requests.ConnectTimeout:
-        print("md5.my-addr.com ===> Connection Error!!!")
+        print("md5.my-addr.com ===> Connection Error!!!\n{}".format("=" * 75))
 
 if __name__ == '__main__':
     try:
