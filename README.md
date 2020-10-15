@@ -31,3 +31,6 @@ md5.my-addr.com ===> 123456
 Elapsed Time (Sec): 5.507623910903931
 ===========================================================================
 ```
+
+#Hasher
+Now it can also convert string into hashes

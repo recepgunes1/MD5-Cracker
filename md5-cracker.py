@@ -5,6 +5,8 @@ __author__ = 'Recep Gunes'
 import requests, sys, time
 from bs4 import BeautifulSoup
 
+
+
 def banner():
     print("""{}
 '||    ||' '||''|.   ____                                   
@@ -104,3 +106,12 @@ if __name__ == '__main__':
         print("Please, Entry A Hash Text!")
     except:
         print("Don't Know Error!")
+        
+        
+        
+        
+        
+
+
+        
+        
